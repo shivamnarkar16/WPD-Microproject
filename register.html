@@ -1,0 +1,107 @@
+<DOCTYPE html>
+	<html>
+
+	<head>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		<title> SILENT HILL RESORT</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+<body >
+
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: url('https://images.unsplash.com/photo-1582719508461-905c673771fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzb3J0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.container{
+  width: 45rem;
+  border: 1px solid #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.726);
+  backdrop-filter: blur(50px);
+}
+
+.gender{
+  text-align: center;  
+
+}
+
+input{
+  margin: 5px;
+  padding: 5px;
+  border: none;
+}
+
+h1{
+  text-align: center;
+}
+
+button{
+  padding: 15px 40px;
+  background: rgb(22, 15, 16);
+  color: #fff;
+  font-weight: 600;
+  border: none;
+}
+
+</style>
+
+
+
+  <div class="container">
+  <h1>SILENT HILL RESORT</h1>
+           <h2> Register form </h2>
+          <form>
+         <br>
+        
+
+           <label>First name : <input type ="text" name = "firstname " placeholder ="Firstname " required ></label>
+           <br>
+           <label>Lastname :  <input type ="text"  name ="lastname"    placeholder ="Lastname" required ></label>
+          
+               <br>
+               <br>
+   <label class="gender">Gender:</label>
+             <label>  <input type = "radio" name=" gender"  value = " male"/>Male </label>
+             <label>  <input type = "radio" name = " gender " value = " female"/>Female </label>
+             <label>   <input type = "radio"  name = " gender"  placeholder =  "others"/>Others </label>
+              <br>
+              <br>
+   
+              <label> Email <input type =" email"  name =" email"  placeholder  =" your email"  required> </label>
+                <br> 
+                <br>
+                 <label> Phone No. <input type =" phone number  " name  = "Number" placeholder = " your number"  required> </label>
+                 <br>
+<br>
+                  <label> Age <input type  =  "age"  name =" age"  place holder ="your age " required> </label>
+                  <br>
+                   <br>
+                 <label>
+                      <input type = "checkbox"  name = "check" />
+                    I agree to the terms and conditions
+                 </label><br>
+                 <br>
+                <a href="thankyou.html"><button>Submit</button></a>
+               </form>
+               </div>
+   </body>
+</html>

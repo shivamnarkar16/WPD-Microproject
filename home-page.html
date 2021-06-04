@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home | Silent Hill Resort</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+ <style>
+  
+ *{
+     margin:0;
+     padding:0;
+     font-family:'Poppins';
+     scroll-behavior: smooth;
+   }
+   .container{
+     height:100vh;
+     width:100%;
+     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%),url('https://www.gannett-cdn.com/-mm-/05b227ad5b8ad4e9dcb53af4f31d7fbdb7fa901b/c=0-64-2119-1259/local/-/media/USATODAY/USATODAY/2014/08/13/1407953244000-177513283.jpg');
+     background-size:cover;
+     background-position:center;
+ 
+   }
+   #about{
+     height:100vh;
+     width:100%;
+     background:#000;
+     color:#fff;
+     display:flex;
+     justify-content:space-evenly;
+     align-items:center;
+
+   }
+     #services{
+     height:100vh;
+     width:100%;
+     background:#000;
+     color:#fff;
+     display:flex;
+     align-items:center;
+     flex-direction:column;
+     padding-top:3rem;
+
+   }
+   .navbar{
+     width:100%;
+     display:flex;
+     align-items:center;
+     position:fixed;
+     justify-content:space-between;
+     padding:0.5rem 0;
+     background:rgba(255,255,255,0.9);
+     backdrop-filter:blur(15px);
+     z-index: 2;
+   }
+   .logo{
+     margin-left:2rem;
+     font-size:2rem;
+   }
+   .right{
+     margin-right:2rem;
+   }
+
+   .login{
+     padding:0.5rem 2rem;
+     font-size:1.2rem;
+     background:black;
+     border: 1px solid #fff;
+     color:#fff;
+cursor:pointer;
+   }
+   .list ul li a{
+     margin-right:20px;
+     color:#000;
+     text-decoration:none;
+   }
+   .list ul{
+     display:flex;
+   }
+   
+   .list ul li{
+     display:flex;
+     list-style:none;
+     justify-content:space-between;
+   }
+   .content{
+     height:100vh;
+     position:relative;
+     text-align:center;
+     display:flex;
+     align-items:center;
+     justify-content:center;
+   }
+   .title{
+     font-size:4rem;
+     color:#fff;
+     text-shadow: 10px 10px 15px  #000;
+     z-index:1;
+   }
+   .title span{
+     background:#000;
+     padding-left:0.5rem;
+   }
+   .about-content{
+     padding:2rem;
+     width:40vw;
+     display:flex;
+     flex-direction:column;
+     justify-content:center;
+   }
+   .about-title{
+     border-bottom:2px solid #fff;
+     font-size:4rem;
+   }
+   .about-desc{
+     padding-top:2rem;
+     width:40vw;
+   }
+   .image{
+     height:30rem;
+     width:40rem;
+     border:1px solid #fff;
+     display:flex;     
+     justify-content:center;
+     background:url('https://cdn.britannica.com/96/115096-050-5AFDAF5D/Bellagio-Hotel-Casino-Las-Vegas.jpg');
+     background-size:cover;
+     background-position:center;
+   }
+   .services-title{
+     font-size:3rem;
+   }
+   .cards{
+     display:flex;
+     align-items:center;
+     padding-top:1rem;
+   }
+   .card{
+     border:1px solid #fff;
+     margin:1rem;
+   }
+   .image-1{
+     width:100%;
+     height:20rem;
+     background:url('https://www.slrlounge.com/wp-content/uploads/2016/03/monikawalecka-1.jpg');
+     background-size:cover;
+     background-position:center;
+   }
+   .card-content-1{
+     padding:1rem;
+   }
+   .image-2{
+     width:100%;
+     height:20rem;
+     background:url('https://i.pinimg.com/originals/0f/ee/76/0fee76ec6b196caf2dbae01a828d69e2.jpg');
+     background-size:cover;
+     background-position:center;
+   }
+   .card-content-2{
+     padding:1rem;
+   }
+   .image-3{
+     width:100%;
+     height:20rem;
+     background:url('https://www.archiscene.net/wp-content/uploads/2019/07/Hyatt-Place-Hotel-Sanya-1.jpg');
+     background-size:cover;
+     background-position:center;
+   }
+   .card-content-3{
+     padding:1rem;
+   }
+
+   .card p{
+     font-weight: 200;
+   }
+ </style>
+  <div class="container">
+    <div class="navbar">
+      <h3 class="logo">SH</h3>
+      <div class="list">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+      </div>
+      <div class="right">
+
+      <a href="register.html"> <button class="login">Register</button></a>
+      </div>
+    </div>
+    <div id="home">
+      <div class="content">
+        <h1 class="title">Where comfort is more than the <span> price </span> . </h1>
+      </div>
+    </div>
+    <div id="about">
+      <div class="about-content">
+      <h1 class="about-title">About Us</h1>
+      <p class="about-desc">Discover the unexpected with Silent Hill Resorts, where we invite our guests to take a journey through the neighborhoods that surround each of our hotels, with the help of our on-site Navigators.A 3-star hotel with luxorious amenities. Founded in 1981. Our aim is to give our best hospitality and service to our tourists and customers. </p>
+      </div>
+      <div class="image"></div>
+
+    </div>
+
+    <div id="services">
+      <h1 class="services-title">Services</h1>
+      <div class="cards">
+        <div class="card">
+          <div class="image-1"></div>
+          <div class="card-content-1">
+            <h2>Delicious Food</h2>
+            <p>We offer delicious food to our guests made by our high-experienced chefs who are qualified from top universites from the field of hotel management</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-2"></div>
+          <div class="card-content-2">
+            <h2>Experienced Staff</h2>
+            <p>As being a 3-star luxurious hotel, we have a very experienced and hygiene staff who have more than 10 years of experience and are serving us from last 8 years without any complaint.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="image-3"></div>
+          <div class="card-content-3">
+            <h2>Nice Architecture</h2>
+            <p>For around 4 years we have won the best interior design at Hotels' mania event. We have aesthetic architecture and is made with hi-tech architects and engineers. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
